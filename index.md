@@ -3,9 +3,11 @@ layout: home
 title: "Jinesh Gada | Automotive Software Engineer"
 ---
 
-# Jinesh Gada
-
-**Technical Lead | Automotive Software Engineer | Diagnostics & OTA Expert**
+<div style="display: flex; justify-content: center; gap: 2em; font-size: 1.25em; margin-top: 1em; margin-bottom: 2em;">
+  <strong>Technical Lead</strong>
+  <span>Automotive Software Engineer</span>
+  <strong>Diagnostics & OTA Expert</strong>
+</div>
 
 Sagamihara, Kanagawa, Japan  
 Phone: +81 9062806503  
