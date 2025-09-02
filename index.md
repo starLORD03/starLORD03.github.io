@@ -1,56 +1,36 @@
 ---
-layout: home
-title: "Jinesh Gada | Automotive Software Engineer"
+layout: splash
+title: "Jinesh Gada"
+subtitle: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80
+excerpt: >
+  Sagamihara, Kanagawa, Japan<br>
+  <strong>Email:</strong> <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a>  
+  <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jinesh-gada-2975aa106">jinesh-gada-2975aa106</a>
+feature_row:
+  - image_path: https://img.icons8.com/ios-filled/100/000000/car.png
+    alt: "Automotive"
+    title: "Automotive Software"
+    excerpt: "Adaptive AUTOSAR, SOME/IP, TCP/UDP, Diagnostic Protocols"
+  - image_path: https://img.icons8.com/ios-filled/100/000000/code.png
+    alt: "Programming"
+    title: "Programming"
+    excerpt: "C++, CAPL, VC++, STL, Multi-threading, Design Patterns"
+  - image_path: https://img.icons8.com/ios-filled/100/000000/award.png
+    alt: "Awards"
+    title: "Recognition"
+    excerpt: "General Manager Award for Multi ECU Reprogramming Tool"
 ---
 
-<div style="display: flex; justify-content: center; gap: 2em; font-size: 1.25em; margin-top: 1em; margin-bottom: 2em;">
-  <strong>Technical Lead</strong>
-  <span>Automotive Software Engineer</span>
-  <strong>Diagnostics & OTA Expert</strong>
-</div>
-
-Sagamihara, Kanagawa, Japan  
-Phone: +81 9062806503  
-Email: 301jinesh.gada@gmail.com  
-[LinkedIn](https://linkedin.com/in/jinesh-gada-2975aa106)
-
----
-
-## Skills / Toolset
-
-- **Automotive Standards & Protocols:** Adaptive AUTOSAR, SOME/IP, TCP, UDP, ARXML Design, CAN, UDS, DoIP, SAE-J2534, ISO-22900(DPDU), ISO-14230, Adaptive Autosar-UCM.
-- **Programming:** C++, VC++, STL, CAPL Scripting, ATL::COM, MFC, OOPS, Multi-threading, Design Patterns.
-- **Testing & Debugging:** CANOE, TeraTerm, AQTime, WireShark, Log analysis, Debugging, Problem Solving.
-- **Version Control:** Visual SVN Server, Tortoise SVN.
-- **Other:** Circuit board design, Pi-board, CAN controller, Cloud services for IoT Hub, Telematics Unit.
-
----
-
-## Work History
-
-**Technical Lead – Tata Consultancy Services, Japan (Dec 2019 – Apr 2023)**  
-- Led E2E vehicle diagnostics projects, Agile/SCRUM teams, and technical architecture.
-- Specialized in vehicle communication protocols; advanced ECU flashing and OTA.
-- Key Project: Multi ECU Reprogramming Tool (won General Manager Award).
-
-**Technical Lead (Adaptive AUTOSAR UCM) – TCS, Japan (Dec 2020 – Jan 2022)**  
-- Led OTA/update projects, HPCU implementations, and standards integration.
-
-**Developer (Remote Diagnostics Application) – TCS, Japan (Jul 2021 – Apr 2023)**  
-- Delivered remote diagnostics Android app, telematics hardware/software, and cloud integration.
-
-**System Engineer – TCS, India (Dec 2016 – Nov 2019)**  
-- Developed C++ backend for vehicle diagnostics, ECU flashing, and DTC handling.
+{% include feature_row %}
 
 ---
 
-## Awards
+# About Me
 
-- **General Manager Award** (Client honor for Multi ECU Reprogramming Tool)
+Experienced technical lead and automotive software engineer, specializing in vehicle diagnostics, OTA updates, and embedded platforms. Known for delivering robust solutions and leading cross-functional teams.
 
----
-
-## Contact
-
-[301jinesh.gada@gmail.com](mailto:301jinesh.gada@gmail.com)  
-[LinkedIn](https://linkedin.com/in/jinesh-gada-2975aa106)
+[Learn more →](/about/)
