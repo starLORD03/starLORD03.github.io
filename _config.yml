@@ -1,3 +1,21 @@
-title: "Jinesh Gada | Automotive Software Engineer"
-theme: minima
-description: "Professional portfolio for Jinesh Gada: Vehicle Diagnostics, Adaptive AUTOSAR, OTA & Automotive Software."
+title: "Jinesh Gada Portfolio"
+description: "Professional portfolio for Jinesh Gada: Technical Lead, Automotive Software Engineer, Diagnostics & OTA Expert."
+url: "https://starLORD03.github.io"
+baseurl: ""
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "default"
+locale: "en"
+logo: "/assets/images/profile.png"
+author:
+  name: "Jinesh Gada"
+  avatar: "/assets/images/profile.png"
+  bio: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
+  location: "Sagamihara, Kanagawa, Japan"
+  email: "301jinesh.gada@gmail.com"
+  linkedin: "jinesh-gada-2975aa106"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+include:
+  - index.md
+  - about.md
