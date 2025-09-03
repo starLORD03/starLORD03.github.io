@@ -1,20 +1,9 @@
-title: "Jinesh Gada Portfolio"
-description: "Professional portfolio for Jinesh Gada: Technical Lead, Automotive Software Engineer, Diagnostics & OTA Expert."
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
-
-locale: "en"
-logo: "/assets/images/profile.png"
+title: "Jinesh Gada"
+description: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
+theme: jekyll-theme-cayman
+show_downloads: false
 
 author:
   name: "Jinesh Gada"
-  avatar: "/assets/images/profile.png"
-  bio: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
-  location: "Sagamihara, Kanagawa, Japan"
   email: "301jinesh.gada@gmail.com"
-  linkedin: "jinesh-gada-2975aa106"
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
+  linkedin: "https://linkedin.com/in/jinesh-gada-2975aa106"
