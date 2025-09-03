@@ -2,7 +2,7 @@
 layout: default
 title: "About | Jinesh Gada"
 permalink: /about/
-description: "Learn more about Jinesh Gada — Automotive Software Engineer & Technical Lead specializing in vehicle diagnostics, OTA, and Adaptive AUTOSAR."
+description: "Portfolio of Jinesh Gada — Automotive Software Engineer & Technical Lead specializing in vehicle diagnostics, OTA, and Adaptive AUTOSAR."
 ---
 
 <!-- Material Icons -->
@@ -35,7 +35,7 @@ With over 8 years of experience across **India and Japan**, I’ve led cross-fun
 - <span class="material-icons">place</span> Sagamihara, Kanagawa, Japan  
 - <span class="material-icons">phone</span> +81 9062806503  
 - <span class="material-icons">email</span> [301jinesh.gada@gmail.com](mailto:301jinesh.gada@gmail.com)  
-- <span class="material-icons">business_center</span> [LinkedIn Profile](https://linkedin.com/in/jinesh-gada-2975aa106)  
+- <span class="material-icons">business_center</span> [LinkedIn Profile](https://linkedin.com/in/jinesh-gada-2975aa106)
 
 ---
 
@@ -45,7 +45,7 @@ With over 8 years of experience across **India and Japan**, I’ve led cross-fun
 - **Programming:** C++, VC++, STL, CAPL, ATL::COM, MFC, OOPS, Multithreading, Design Patterns.  
 - **Testing & Debugging:** CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging.  
 - **Version Control:** Visual SVN Server, Tortoise SVN.  
-- **Other:** Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.  
+- **Other:** Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.
 
 ---
 
@@ -59,7 +59,7 @@ With over 8 years of experience across **India and Japan**, I’ve led cross-fun
     <li>Led E2E vehicle diagnostics projects and Agile teams.</li>
     <li>Architected vehicle diagnostics applications.</li>
     <li>Developed ECU flashing & OTA solutions.</li>
-    <li>Designed & validated **Multi ECU Reprogramming Tool**, awarded "General Manager Award".</li>
+    <li>Designed & validated <strong>Multi ECU Reprogramming Tool</strong>, awarded "General Manager Award".</li>
   </ul>
 </div>
 
