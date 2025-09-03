@@ -9,35 +9,85 @@ description: "Portfolio of Jinesh Gada — Automotive Software Engineer & Techni
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <style>
-  .about-section { margin: 2rem auto; max-width: 900px; padding: 0 1rem; }
-  .about-section h2 { border-bottom: 2px solid #eee; padding-bottom: .3rem; margin-top: 2rem; }
-  .about-section ul { list-style: none; padding: 0; }
-  .about-section li { margin: .5rem 0; }
-  .material-icons { font-size:20px; vertical-align:middle; margin-right:6px; color:#0366d6; }
-  .job { margin-bottom: 1.5rem; }
-  .job h3 { margin-bottom: .2rem; }
-  .job .company { font-weight:600; color:#444; }
-  .job .date { color:#666; font-size:.9rem; }
-  .award { background:#f9f9f9; border-left:4px solid #0366d6; padding:.75rem 1rem; border-radius:6px; margin:.75rem 0; }
+  .about-section { 
+    margin: 2rem auto; 
+    max-width: 900px; 
+    padding: 0 1rem; 
+  }
+  .about-section h2 { 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: .3rem; 
+    margin-top: 2rem; 
+  }
+  .about-section ul { 
+    list-style: none; 
+    padding: 0; 
+  }
+  .about-section li { 
+    margin: .5rem 0; 
+  }
+  .material-icons { 
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-right: 6px; 
+    color: #0366d6; 
+  }
+  .job { 
+    margin-bottom: 1.5rem; 
+  }
+  .job h3 { 
+    margin-bottom: .2rem; 
+  }
+  .job .company { 
+    font-weight: 600; 
+    color: #444; 
+  }
+  .job .date { 
+    color: #666; 
+    font-size: .9rem; 
+  }
+  .award { 
+    background: #f9f9f9; 
+    border-left: 4px solid #0366d6; 
+    padding: .75rem 1rem; 
+    border-radius: 6px; 
+    margin: .75rem 0; 
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
 </style>
 
 <div class="about-section">
 
 # About Me
 
-I’m **Jinesh Gada**, a Technical Lead and Automotive Software Engineer specializing in **vehicle diagnostics, OTA updates, and embedded platforms**.  
-With over 8 years of experience across **India and Japan**, I’ve led cross-functional teams and delivered high-impact automotive solutions.
-
----
+I'm **Jinesh Gada**, a Technical Lead and Automotive Software Engineer specializing in **vehicle diagnostics, OTA updates, and embedded platforms**.  
+With over 8 years of experience across **India and Japan**, I've led cross-functional teams and delivered high-impact automotive solutions.
 
 ## 📞 Contact
 
-- <span class="material-icons">place</span> Sagamihara, Kanagawa, Japan  
-- <span class="material-icons">phone</span> +81 9062806503  
-- <span class="material-icons">email</span> [301jinesh.gada@gmail.com](mailto:301jinesh.gada@gmail.com)  
-- <span class="material-icons">business_center</span> [LinkedIn Profile](https://linkedin.com/in/jinesh-gada-2975aa106)
+<div class="contact-item">
+  <span class="material-icons">place</span>
+  Sagamihara, Kanagawa, Japan
+</div>
 
----
+<div class="contact-item">
+  <span class="material-icons">phone</span>
+  +81 9062806503
+</div>
+
+<div class="contact-item">
+  <span class="material-icons">email</span>
+  <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a>
+</div>
+
+<div class="contact-item">
+  <span class="material-icons">business_center</span>
+  <a href="https://linkedin.com/in/jinesh-gada-2975aa106">LinkedIn Profile</a>
+</div>
 
 ## 🛠 Skills & Toolset
 
@@ -46,8 +96,6 @@ With over 8 years of experience across **India and Japan**, I’ve led cross-fun
 - **Testing & Debugging:** CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging.  
 - **Version Control:** Visual SVN Server, Tortoise SVN.  
 - **Other:** Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.
-
----
 
 ## 💼 Work History
 
@@ -92,8 +140,6 @@ With over 8 years of experience across **India and Japan**, I’ve led cross-fun
     <li>Implemented ECU flashing, DTCs, symptom diagnosis, signal monitoring.</li>
   </ul>
 </div>
-
----
 
 ## 🏆 Awards
 
