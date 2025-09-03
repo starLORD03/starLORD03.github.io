@@ -5,114 +5,159 @@ permalink: /about/
 description: "Portfolio of Jinesh Gada — Automotive Software Engineer & Technical Lead specializing in vehicle diagnostics, OTA, and Adaptive AUTOSAR."
 ---
 
-<!-- Material Icons -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 <style>
-  .about-section { 
+  .about-container { 
     margin: 2rem auto; 
     max-width: 900px; 
     padding: 0 1rem; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
-  .about-section h2 { 
+  .about-container h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+    color: #333;
+  }
+  .about-container h2 { 
+    font-size: 1.8rem;
     border-bottom: 2px solid #eee; 
     padding-bottom: .3rem; 
     margin-top: 2rem; 
+    margin-bottom: 1rem;
+    color: #333;
   }
-  .about-section ul { 
-    list-style: none; 
-    padding: 0; 
+  .intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
   }
-  .about-section li { 
-    margin: .5rem 0; 
-  }
-  .material-icons { 
-    font-size: 20px; 
-    vertical-align: middle; 
-    margin-right: 6px; 
-    color: #0366d6; 
-  }
-  .job { 
-    margin-bottom: 1.5rem; 
-  }
-  .job h3 { 
-    margin-bottom: .2rem; 
-  }
-  .job .company { 
-    font-weight: 600; 
-    color: #444; 
-  }
-  .job .date { 
-    color: #666; 
-    font-size: .9rem; 
-  }
-  .award { 
-    background: #f9f9f9; 
-    border-left: 4px solid #0366d6; 
-    padding: .75rem 1rem; 
-    border-radius: 6px; 
-    margin: .75rem 0; 
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5rem;
+    margin: 1rem 0;
   }
   .contact-item {
     display: flex;
     align-items: center;
-    margin: 0.5rem 0;
+    padding: 0.5rem;
   }
+  .contact-icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  .skills-list li {
+    margin: 0.8rem 0;
+    padding-left: 1rem;
+    position: relative;
+  }
+  .skills-list li:before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    color: #0366d6;
+  }
+  .job { 
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    background: #fafbfc;
+  }
+  .job-title { 
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem; 
+    color: #0366d6;
+  }
+  .company { 
+    font-weight: 600; 
+    color: #444; 
+    margin-bottom: 0.3rem;
+  }
+  .date { 
+    color: #666; 
+    font-size: 0.9rem; 
+    margin-bottom: 1rem;
+  }
+  .job ul {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+  .job li {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+  .award { 
+    background: linear-gradient(135deg, #f6f8fa 0%, #e1e7ed 100%);
+    border-left: 4px solid #0366d6; 
+    padding: 1rem 1.5rem; 
+    border-radius: 6px; 
+    margin: 1rem 0;
+    font-weight: 600;
+  }
+  .bold { font-weight: 600; }
 </style>
 
-<div class="about-section">
+<div class="about-container">
 
-# About Me
+<h1>About Me</h1>
 
-I'm **Jinesh Gada**, a Technical Lead and Automotive Software Engineer specializing in **vehicle diagnostics, OTA updates, and embedded platforms**.  
-With over 8 years of experience across **India and Japan**, I've led cross-functional teams and delivered high-impact automotive solutions.
-
-## 📞 Contact
-
-<div class="contact-item">
-  <span class="material-icons">place</span>
-  Sagamihara, Kanagawa, Japan
+<div class="intro">
+I'm <span class="bold">Jinesh Gada</span>, a Technical Lead and Automotive Software Engineer specializing in <span class="bold">vehicle diagnostics, OTA updates, and embedded platforms</span>.<br>
+With over 8 years of experience across <span class="bold">India and Japan</span>, I've led cross-functional teams and delivered high-impact automotive solutions.
 </div>
 
-<div class="contact-item">
-  <span class="material-icons">phone</span>
-  +81 9062806503
+<h2>📞 Contact</h2>
+
+<div class="contact-grid">
+  <div class="contact-item">
+    <span class="contact-icon">📍</span>
+    Sagamihara, Kanagawa, Japan
+  </div>
+  <div class="contact-item">
+    <span class="contact-icon">📱</span>
+    +81 9062806503
+  </div>
+  <div class="contact-item">
+    <span class="contact-icon">✉️</span>
+    <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a>
+  </div>
+  <div class="contact-item">
+    <span class="contact-icon">💼</span>
+    <a href="https://linkedin.com/in/jinesh-gada-2975aa106">LinkedIn Profile</a>
+  </div>
 </div>
 
-<div class="contact-item">
-  <span class="material-icons">email</span>
-  <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a>
-</div>
+<h2>🛠 Skills & Toolset</h2>
 
-<div class="contact-item">
-  <span class="material-icons">business_center</span>
-  <a href="https://linkedin.com/in/jinesh-gada-2975aa106">LinkedIn Profile</a>
-</div>
+<ul class="skills-list">
+  <li><span class="bold">Automotive Protocols & Standards:</span> Adaptive AUTOSAR, SOME/IP, TCP/UDP, ARXML, CAN, UDS, DoIP, J2534, ISO-22900 (DPDU), ISO-14230, UCM.</li>
+  <li><span class="bold">Programming:</span> C++, VC++, STL, CAPL, ATL::COM, MFC, OOPS, Multithreading, Design Patterns.</li>
+  <li><span class="bold">Testing & Debugging:</span> CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging.</li>
+  <li><span class="bold">Version Control:</span> Visual SVN Server, Tortoise SVN.</li>
+  <li><span class="bold">Other:</span> Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.</li>
+</ul>
 
-## 🛠 Skills & Toolset
-
-- **Automotive Protocols & Standards:** Adaptive AUTOSAR, SOME/IP, TCP/UDP, ARXML, CAN, UDS, DoIP, J2534, ISO-22900 (DPDU), ISO-14230, UCM.  
-- **Programming:** C++, VC++, STL, CAPL, ATL::COM, MFC, OOPS, Multithreading, Design Patterns.  
-- **Testing & Debugging:** CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging.  
-- **Version Control:** Visual SVN Server, Tortoise SVN.  
-- **Other:** Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.
-
-## 💼 Work History
+<h2>💼 Work History</h2>
 
 <div class="job">
-  <h3>Technical Lead</h3>
+  <div class="job-title">Technical Lead</div>
   <div class="company">Tata Consultancy Services, Japan</div>
   <div class="date">Dec 2019 – Apr 2023</div>
   <ul>
     <li>Led E2E vehicle diagnostics projects and Agile teams.</li>
     <li>Architected vehicle diagnostics applications.</li>
     <li>Developed ECU flashing & OTA solutions.</li>
-    <li>Designed & validated <strong>Multi ECU Reprogramming Tool</strong>, awarded "General Manager Award".</li>
+    <li>Designed & validated <span class="bold">Multi ECU Reprogramming Tool</span>, awarded "General Manager Award".</li>
   </ul>
 </div>
 
 <div class="job">
-  <h3>Technical Lead (Adaptive AUTOSAR UCM)</h3>
+  <div class="job-title">Technical Lead (Adaptive AUTOSAR UCM)</div>
   <div class="company">Tata Consultancy Services, Japan</div>
   <div class="date">Dec 2020 – Jan 2022</div>
   <ul>
@@ -122,7 +167,7 @@ With over 8 years of experience across **India and Japan**, I've led cross-funct
 </div>
 
 <div class="job">
-  <h3>Developer (Remote Diagnostics Application)</h3>
+  <div class="job-title">Developer (Remote Diagnostics Application)</div>
   <div class="company">Tata Consultancy Services, Japan</div>
   <div class="date">Jul 2021 – Apr 2023</div>
   <ul>
@@ -132,7 +177,7 @@ With over 8 years of experience across **India and Japan**, I've led cross-funct
 </div>
 
 <div class="job">
-  <h3>System Engineer</h3>
+  <div class="job-title">System Engineer</div>
   <div class="company">Tata Consultancy Services, India</div>
   <div class="date">Dec 2016 – Nov 2019</div>
   <ul>
@@ -141,10 +186,10 @@ With over 8 years of experience across **India and Japan**, I've led cross-funct
   </ul>
 </div>
 
-## 🏆 Awards
+<h2>🏆 Awards</h2>
 
 <div class="award">
-  <strong>General Manager Award</strong> — Multi ECU Reprogramming Tool (Client Recognition)
+  <span class="bold">General Manager Award</span> — Multi ECU Reprogramming Tool (Client Recognition)
 </div>
 
 </div>
