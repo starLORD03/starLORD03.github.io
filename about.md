@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "About | Jinesh Gada"
@@ -19,7 +18,7 @@ description: "Portfolio of Jinesh Gada — Automotive Software Engineer & Techni
   .job h3 { margin-bottom: .2rem; }
   .job .company { font-weight:600; color:#444; }
   .job .date { color:#666; font-size:.9rem; }
-  .award { background:#f9f9f9; border-left:4px solid #0366d6; padding:.75rem 1rem; border-radius:6px; margin:.5rem 0; }
+  .award { background:#f9f9f9; border-left:4px solid #0366d6; padding:.75rem 1rem; border-radius:6px; margin:.75rem 0; }
 </style>
 
 <div class="about-section">
