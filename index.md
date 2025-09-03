@@ -1,36 +1,67 @@
 ---
-layout: splash
-title: "Jinesh Gada"
-subtitle: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  overlay_image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80
-excerpt: >
-  Sagamihara, Kanagawa, Japan<br>
-  <strong>Email:</strong> <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a>  
-  <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jinesh-gada-2975aa106">jinesh-gada-2975aa106</a>
-feature_row:
-  - image_path: https://img.icons8.com/ios-filled/100/000000/car.png
-    alt: "Automotive"
-    title: "Automotive Software"
-    excerpt: "Adaptive AUTOSAR, SOME/IP, TCP/UDP, Diagnostic Protocols"
-  - image_path: https://img.icons8.com/ios-filled/100/000000/code.png
-    alt: "Programming"
-    title: "Programming"
-    excerpt: "C++, CAPL, VC++, STL, Multi-threading, Design Patterns"
-  - image_path: https://img.icons8.com/ios-filled/100/000000/award.png
-    alt: "Awards"
-    title: "Recognition"
-    excerpt: "General Manager Award for Multi ECU Reprogramming Tool"
+layout: default
+title: "Home"
+description: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
 ---
 
-{% include feature_row %}
+<!-- Material Icons (simple + reliable) -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
----
+<style>
+  .hero { text-align:center; padding: 3rem 1rem; }
+  .hero h1 { margin: 0; }
+  .subtitle { color:#666; margin:.5rem 0 0 0; }
+  .contact a { text-decoration:none; }
+  .cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  .card {
+    background:#fff;
+    border-radius:16px;
+    padding:1.25rem 1.25rem 1rem;
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+  }
+  .card h3 { margin:.5rem 0 .25rem; }
+  .material-icons { font-size:36px; vertical-align:middle; }
+  .btn-primary {
+    display:inline-block; margin-top:1rem; padding:.6rem 1rem;
+    border-radius:10px; text-decoration:none; font-weight:600;
+    background:#0366d6; color:#fff;
+  }
+</style>
 
-# About Me
+<div class="hero">
+  <h1>Jinesh Gada</h1>
+  <p class="subtitle"><strong>Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert</strong></p>
+  <p class="contact">
+    📍 Sagamihara, Kanagawa, Japan ·
+    📧 <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a> ·
+    🔗 <a href="https://linkedin.com/in/jinesh-gada-2975aa106" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+</div>
 
-Experienced technical lead and automotive software engineer, specializing in vehicle diagnostics, OTA updates, and embedded platforms. Known for delivering robust solutions and leading cross-functional teams.
+<div class="cards">
+  <div class="card">
+    <span class="material-icons">directions_car</span>
+    <h3>Automotive Software</h3>
+    <p>Adaptive AUTOSAR, SOME/IP, TCP/UDP, Diagnostic Protocols.</p>
+  </div>
+  <div class="card">
+    <span class="material-icons">code</span>
+    <h3>Programming</h3>
+    <p>C++, CAPL, VC++, STL, Multi-threading, Design Patterns.</p>
+  </div>
+  <div class="card">
+    <span class="material-icons">emoji_events</span>
+    <h3>Recognition</h3>
+    <p>General Manager Award for Multi ECU Reprogramming Tool.</p>
+  </div>
+</div>
 
-[Learn more →](/about/)
+## About Me
+Experienced technical lead and automotive software engineer, specializing in vehicle diagnostics, OTA updates, and embedded platforms.
+
+<a class="btn-primary" href="{{ '/about/' | relative_url }}">Learn more →</a>
