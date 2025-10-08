@@ -13,11 +13,14 @@ description: "Senior Technical Lead · Adaptive AUTOSAR Specialist · Diagnostic
   .subtitle { color:#666; margin:.5rem 0 0 0; }
   .contact a { text-decoration:none; }
   .cards {
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
-    gap: 1rem;
-    margin: 2rem 0;
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
   }
+  @media (max-width: 1024px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px)  { .cards { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px)  { .cards { grid-template-columns: 1fr; } }
   .card {
     background:#fff;
     border-radius:16px;
