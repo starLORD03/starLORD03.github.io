@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Home"
-description: "Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert"
+title: "Career Overview"
+description: "Senior Technical Lead · Adaptive AUTOSAR Specialist · Diagnostics & OTA Expert"
 ---
 
 <!-- Material Icons (simple + reliable) -->
@@ -35,7 +35,7 @@ description: "Technical Lead · Automotive Software Engineer · Diagnostics & OT
 
 <div class="hero">
   <h1>Jinesh Gada</h1>
-  <p class="subtitle"><strong>Technical Lead · Automotive Software Engineer · Diagnostics & OTA Expert</strong></p>
+  <p class="subtitle"><strong>Senior Technical Lead · Adaptive AUTOSAR Specialist · Diagnostics & OTA Expert</strong></p>
   <p class="contact">
     📍 Sagamihara, Kanagawa, Japan ·
     📧 <a href="mailto:301jinesh.gada@gmail.com">301jinesh.gada@gmail.com</a> ·
@@ -54,6 +54,11 @@ description: "Technical Lead · Automotive Software Engineer · Diagnostics & OT
     <h3>Programming</h3>
     <p>C++, CAPL, VC++, STL, Multi-threading, Design Patterns.</p>
   </div>
+    <div class="card">
+    <span class="material-icons">build</span>
+    <h3>Tools</h3>
+    <p>Docker, YAML, Git, Parasoft, CANoe, GTest.</p>
+  </div>
   <div class="card">
     <span class="material-icons">emoji_events</span>
     <h3>Recognition</h3>
@@ -62,6 +67,6 @@ description: "Technical Lead · Automotive Software Engineer · Diagnostics & OT
 </div>
 
 ## About Me
-Experienced technical lead and automotive software engineer, specializing in vehicle diagnostics, OTA updates, and embedded platforms.
+Experienced technical lead and automotive software engineer, specializing in vehicle diagnostics, OTA updates, and Adaptive AUTOSAR.
 
 <a class="btn-primary" href="{{ '/about/' | relative_url }}">Learn more →</a>
