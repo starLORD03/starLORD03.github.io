@@ -107,7 +107,7 @@ description: "Portfolio of Jinesh Gada — Automotive Software Engineer & Techni
 <h1>About Me</h1>
 
 <div class="intro">
-I'm <span class="bold">Jinesh Gada</span>, a Technical Lead and Automotive Software Engineer specializing in <span class="bold">vehicle diagnostics, OTA updates, and embedded platforms</span>.<br>
+I'm <span class="bold">Jinesh Gada</span>, a Technical Lead and Automotive Software Engineer specializing in <span class="bold">Vehicle Diagnostics, OTA updates, and Adaptive AUTOSAR</span>.<br>
 With over 8 years of experience across <span class="bold">India and Japan</span>, I've led cross-functional teams and delivered high-impact automotive solutions.
 </div>
 
@@ -120,7 +120,7 @@ With over 8 years of experience across <span class="bold">India and Japan</span>
   </div>
   <div class="contact-item">
     <span class="contact-icon">📱</span>
-    +81 9062806503
+    +81 8076141490
   </div>
   <div class="contact-item">
     <span class="contact-icon">✉️</span>
@@ -136,13 +136,26 @@ With over 8 years of experience across <span class="bold">India and Japan</span>
 
 <ul class="skills-list">
   <li><span class="bold">Automotive Protocols & Standards:</span> Adaptive AUTOSAR, SOME/IP, TCP/UDP, ARXML, CAN, UDS, DoIP, J2534, ISO-22900 (DPDU), ISO-14230, UCM.</li>
-  <li><span class="bold">Programming:</span> C++, VC++, STL, CAPL, ATL::COM, MFC, OOPS, Multithreading, Design Patterns.</li>
-  <li><span class="bold">Testing & Debugging:</span> CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging.</li>
-  <li><span class="bold">Version Control:</span> Visual SVN Server, Tortoise SVN.</li>
+  <li><span class="bold">Programming:</span> C++, VC++, STL, CAPL, ATL::COM, MFC, OOPS, Multithreading, Design Patterns, YAML, Markdown.</li>
+  <li><span class="bold">Testing & Debugging:</span> CANOE, TeraTerm, AQTime, Wireshark, Log Analysis, Debugging, Docker, GTest.</li>
+  <li><span class="bold">Version Control:</span> Visual SVN Server, Tortoise SVN, Git, VSCode.</li>
   <li><span class="bold">Other:</span> Telematics hardware design, Pi-board, CAN controller, IoT Hub cloud services.</li>
 </ul>
 
 <h2>💼 Work History</h2>
+
+<div class="job">
+  <div class="job-title">Senior Technical Lead</div>
+  <div class="company">KPIT, Japan</div>
+  <div class="date">Apr 2023 – Present</div>
+  <ul>
+    <li>Led Adaptive AUTOSAR Powertrain software development.</li>
+    <li>Architected and developed powertrain applications.</li>
+    <li>Performed SWE.2 to SWE.6 ASPICE activities for the applications developed.</li>
+    <li>Designed ARXMLs for virtaul and actual Hardware environment.</li>
+    <li>Developed CAPL scripts for validating applications on HW along with test automation.</li>
+  </ul>
+</div>
 
 <div class="job">
   <div class="job-title">Technical Lead</div>
